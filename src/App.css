@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+h1{
+  color: white;
+  text-shadow: 2px 0 10px black;
+  margin-bottom: 20px;
+  font-size: calc(30px + 2vmin);
+}
+
+h2{
+  margin: 20px 0 10px 0;
+  border-top: 1px dashed white;
+}
+
+.App-header {
+  padding: 20px;
+  background-color: #282c34;
+  font-size: calc(2px + 2vmin);
+  color: lightgrey;
+
+  min-width: 40%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.App{
+  top: 1;
+  height: auto;
+  display: flex;
+  margin: 5% 0  5% 0;
+  justify-content: center;
+}
+
+.Operations{
+  text-align: left;
+}
+
+.Operations input{
+  background-color: #282c34;
+  color: wheat;
+  border: none;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.Operations input[type=text]{
+  width: 80%;
+}
+
+.Operations input:focus, .Operations select:focus{
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.Operations select{
+  background-color: #282c34;
+  color: wheat;
+  font-size: 15px;
+  border: none;
+}
+
+.Operations button{
+  background-color: #282c34;
+  color: gray;
+  border: none;
+  padding: 10px;
+  margin: 20px 0 0 0;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.Operations button:hover{
+  background-color: wheat;
+  color: #282c34;
+}
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  border-collapse: collapse;
+}
+td,th {
+  border: 1px solid white;
+  padding: 15px;
+}
